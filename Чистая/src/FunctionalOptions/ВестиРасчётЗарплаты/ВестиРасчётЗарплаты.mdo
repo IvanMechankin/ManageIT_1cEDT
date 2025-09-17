@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51435c1c-069a-4038-87ad-2885f3b66eac">
+  <name>ВестиРасчётЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести расчёт зарплаты</value>
+  </synonym>
+  <location>Constant.ВестиРасчётЗарплаты</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Сотрудники.Attribute.Оклад</content>
+  <content>Catalog.Сотрудники.Attribute.СтавкаЧаса</content>
+  <content>Subsystem.Зарплата</content>
+  <content>ChartOfCalculationTypes.НачисленияУдержания</content>
+  <content>CalculationRegister.Зарплата</content>
+  <content>Document.НачислениеСписком</content>
+  <content>InformationRegister.Календарь</content>
+  <content>Document.НачислениеПоОкладу</content>
+  <content>DataProcessor.ЗаполнениеГрафика</content>
+  <content>DataProcessor.АнализВычислений</content>
+  <content>Document.НачислениеПремииПроцентом</content>
+</mdclass:FunctionalOption>

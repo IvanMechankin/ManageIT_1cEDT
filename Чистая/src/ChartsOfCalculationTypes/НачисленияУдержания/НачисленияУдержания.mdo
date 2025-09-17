@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22de7be2-9063-47a4-9f30-bc52b8797a72">
+  <producedTypes>
+    <objectType typeId="f2691495-81ba-493e-abbf-c435d4feb0aa" valueTypeId="02522947-a2e4-40e2-aa8f-91050ac61350"/>
+    <refType typeId="b030d438-44f1-4487-8b66-2d1e801e3a9e" valueTypeId="d3d82608-e05f-49ca-9b95-c3f2f942e3f3"/>
+    <selectionType typeId="f7bea158-c49c-491c-822d-7a87dfd4741c" valueTypeId="f102bf2e-706d-4572-9293-ecc5bbf92e46"/>
+    <listType typeId="f00ca522-eb28-46b5-8197-b10baad20d4a" valueTypeId="675c34cc-ff88-45f4-b3bc-a10f913f5832"/>
+    <managerType typeId="10edd3cf-4a7a-4523-b28f-ba9452fb1258" valueTypeId="b0c5bbf2-452a-4d96-a01c-81b86b3a4faa"/>
+    <displacingCalculationTypesType typeId="84c10bd9-e53e-4de6-8161-9383fc0fab56" valueTypeId="9dfd6ab1-2c5b-47ed-901a-5a80ac1fc57f"/>
+    <displacingCalculationTypesRowType typeId="73e779fd-02b9-436c-82b5-fda42333e832" valueTypeId="20f1f71a-f80a-4795-a843-2f83341d83a8"/>
+    <baseCalculationTypesType typeId="601430eb-6ce6-46b9-86fd-b882b2e52d75" valueTypeId="03ec10ca-5bea-4ea3-bb9f-7ea3fa590ccd"/>
+    <baseCalculationTypesRowType typeId="fe6a3f7c-088f-4e00-bbd1-5d8883cf4b72" valueTypeId="7cd76f19-14fe-4b5b-88f0-907dbf834786"/>
+    <leadingCalculationTypesType typeId="0b8e8cfe-0dbd-4ca6-be6f-a0abca58edac" valueTypeId="72faf375-8878-41d7-bc13-d02cfa01d363"/>
+    <leadingCalculationTypesRowType typeId="c9680066-1d9d-41ad-a7f0-611eb5d58a8c" valueTypeId="c07831de-7a63-4e32-ae10-3794ef95db12"/>
+  </producedTypes>
+  <name>НачисленияУдержания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисления удержания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCalculationTypes.НачисленияУдержания.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCalculationTypes.НачисленияУдержания.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <dependenceOnCalculationTypes>OnActionPeriod</dependenceOnCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.НачисленияУдержания</baseCalculationTypes>
+  <actionPeriodUse>true</actionPeriodUse>
+  <predefined>
+    <items id="83af82c8-7ec1-4b53-9ff4-5c142cd30e81">
+      <name>Больничный</name>
+      <description>Больничный</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e5521d8d-c201-4e9a-9e3c-8af044cada68">
+      <name>ОплатаПоОкладу</name>
+      <description>Оплата по окладу</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <displaced>ChartOfCalculationTypes.НачисленияУдержания.Больничный</displaced>
+      <displaced>ChartOfCalculationTypes.НачисленияУдержания.Отпуск</displaced>
+    </items>
+    <items id="49807633-1f8c-48b8-8fcf-e57cb6122895">
+      <name>ОплатаПоСтавкеЧаса</name>
+      <description>Оплата по ставке часа</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="06e8e530-f98d-4a44-8704-758463dd905e">
+      <name>Отпуск</name>
+      <description>Отпуск</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <displaced>ChartOfCalculationTypes.НачисленияУдержания.Больничный</displaced>
+    </items>
+    <items id="8448884d-672b-4d4a-aff1-6ac821b7a635">
+      <name>Премия</name>
+      <description>Премия</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="69245cfb-0f4e-4162-b969-37210b8790d4">
+      <name>ПремияПроцентом</name>
+      <description>Премия процентом</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <base>ChartOfCalculationTypes.НачисленияУдержания.ОплатаПоОкладу</base>
+      <leading>ChartOfCalculationTypes.НачисленияУдержания.ОплатаПоОкладу</leading>
+    </items>
+  </predefined>
+</mdclass:ChartOfCalculationTypes>

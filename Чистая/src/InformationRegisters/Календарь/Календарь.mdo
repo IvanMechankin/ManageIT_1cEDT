@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="099dfd13-1195-433a-8340-5a3b4516d2b6">
+  <producedTypes>
+    <selectionType typeId="80d3759d-a111-4144-9824-067fffbfc34c" valueTypeId="c657a279-9b22-42d2-95c1-6d55c893dbc8"/>
+    <listType typeId="bd90fb80-c77c-4f33-b12a-093ac5266ecd" valueTypeId="a3a835ee-184b-4300-b957-a372da1d3ccd"/>
+    <managerType typeId="19329c7c-ec8f-434a-a89c-901c6c52cba2" valueTypeId="b84d0244-946a-417a-85ec-394188019529"/>
+    <recordSetType typeId="73276755-9290-4976-84c0-53d70b47364e" valueTypeId="0a9c14a2-29af-4fd8-beb8-56a4899f2ae2"/>
+    <recordKeyType typeId="c136562e-2301-404b-a178-ea8b1d39b2f6" valueTypeId="f0e7fb3e-f7bd-49de-b022-09f4bdb25a3b"/>
+    <recordType typeId="eda6f19a-4db2-4255-bb74-9d1203516014" valueTypeId="65269b9e-38be-4d82-a709-da5ff79d301a"/>
+    <recordManagerType typeId="53cb6f92-e668-4a9c-81b2-d1971346d007" valueTypeId="552e429d-5d00-4874-b25e-87554ad124ca"/>
+  </producedTypes>
+  <name>Календарь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Календарь</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f5ed3beb-a973-4212-9cc5-44fb23e8091d">
+    <name>РабочийДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий день</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c0fc6fa1-990f-4b77-81c9-9f29a5258271">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

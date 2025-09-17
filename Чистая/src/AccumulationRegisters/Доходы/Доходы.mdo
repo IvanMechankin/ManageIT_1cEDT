@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52c7f924-2b86-41f3-a60e-ff7c20108114">
+  <producedTypes>
+    <selectionType typeId="6749d92d-cdcf-4865-a625-12a8165efc51" valueTypeId="d0d68339-5044-4e10-a135-652db66b949a"/>
+    <listType typeId="04aaea86-d09f-4b90-a749-4b31628e0468" valueTypeId="8ff7427d-0073-43a4-bfb5-becb776b2aa3"/>
+    <managerType typeId="1b4c19c4-5ab1-4c54-b79f-553129606945" valueTypeId="9761e4f9-b8da-426a-a37e-3eabe598255b"/>
+    <recordSetType typeId="7d445227-17fc-4918-8808-8e54a65abf0f" valueTypeId="eff197d1-caea-4af6-861b-0b35abecb929"/>
+    <recordKeyType typeId="68856b46-f4ff-4f27-9ed9-1fe11363ef31" valueTypeId="4b3f64b5-48f2-4e3c-9d7c-c834da1e5b16"/>
+    <recordType typeId="51fad352-a62c-4ec0-82f4-d78480727e0f" valueTypeId="b1ca1e14-1cc9-4ae2-bcf6-95f1d37cf44d"/>
+  </producedTypes>
+  <name>Доходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доходы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="e0b9fa86-9b2d-42c3-8f39-ab23819104a3">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="f241f70f-338c-48af-a2b3-608f2f7d47ec">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Количество</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="21fe6913-6b62-47fd-b8e0-8f5f161bea4f">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="00a5441c-057b-4058-af78-9622bd366594">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

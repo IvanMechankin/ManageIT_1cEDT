@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95659764-3ffd-4547-8764-be0b29b11b40">
+  <name>Учёт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учёт</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>ChartOfAccounts.Управленческий</content>
+  <content>AccountingRegister.Управленческий</content>
+  <content>ChartOfCharacteristicTypes.ВидыСубконто</content>
+</mdclass:Subsystem>

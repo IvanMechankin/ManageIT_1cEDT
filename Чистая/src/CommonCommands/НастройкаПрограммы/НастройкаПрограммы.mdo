@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54fa4b38-3468-49ef-8d31-70ec5fb060c1">
+  <name>НастройкаПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка программы</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

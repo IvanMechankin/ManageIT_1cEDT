@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83ea8c32-fda1-4a36-85e8-31a4248b1976">
+  <name>ПроверкаИННСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка ИНН Сервер</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

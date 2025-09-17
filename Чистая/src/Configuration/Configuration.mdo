@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f67a52e4-f07c-4a5c-b366-e50ba016dfa3">
+  <name>УправлениеИТФирмой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление ИТ-фирмой</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="3e599ba5-468e-4168-95cb-77114b9b78cc"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="ee48ef44-de5d-46ed-bcd1-36a041c77849"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="2e81270d-5b8f-43de-9ccb-57f95e634454"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="3cd6c4fb-e325-4bc8-bb5b-21e33bfb5edd"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="7ad77e2f-46df-4e07-92c9-f6b96db08cd4"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="a14e6600-d3d4-4dee-93f8-a87de83e81f2"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="99cdfd0c-a8bb-4203-a651-61e285a4526e"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.25</compatibilityMode>
+  <languages uuid="8b1723ee-2c52-427d-85db-adb8cc5bcaa5">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Настройки</subsystems>
+  <subsystems>Subsystem.Сделки</subsystems>
+  <subsystems>Subsystem.Деньги</subsystems>
+  <subsystems>Subsystem.Учёт</subsystems>
+  <subsystems>Subsystem.Зарплата</subsystems>
+  <sessionParameters>SessionParameter.ТекущийСотрудник</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.БазовыеПрава</roles>
+  <commonModules>CommonModule.ПроверкаИННСервер</commonModules>
+  <commonModules>CommonModule.ЦеныСервер</commonModules>
+  <commonModules>CommonModule.ЦеныВызовСервера</commonModules>
+  <commonModules>CommonModule.НДСКлиентСервер</commonModules>
+  <functionalOptions>FunctionalOption.ВестиРасчётЗарплаты</functionalOptions>
+  <definedTypes>DefinedType.Сумма</definedTypes>
+  <definedTypes>DefinedType.Количество</definedTypes>
+  <commonCommands>CommonCommand.НастройкаПрограммы</commonCommands>
+  <constants>Constant.ВестиРасчётЗарплаты</constants>
+  <commonForms>CommonForm.НастройкаПрограммы</commonForms>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.НоменклатурныеГруппы</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <documents>Document.УстановкаЦен</documents>
+  <documents>Document.УстановкаСкидок</documents>
+  <documents>Document.ПоступлениеТоваровИУслуг</documents>
+  <documents>Document.РеализацияТоваровИУслуг</documents>
+  <documents>Document.ПоступлениеДенежныхСредств</documents>
+  <documents>Document.СписаниеДенежныхСредств</documents>
+  <documents>Document.НачислениеСписком</documents>
+  <documents>Document.НачислениеПоОкладу</documents>
+  <documents>Document.НачислениеПремииПроцентом</documents>
+  <documentJournals>DocumentJournal.ЦеныИСкидки</documentJournals>
+  <documentJournals>DocumentJournal.Сделки</documentJournals>
+  <documentJournals>DocumentJournal.Деньги</documentJournals>
+  <enums>Enum.Пол</enums>
+  <enums>Enum.ЮридическоеФизическоеЛицо</enums>
+  <enums>Enum.ТипыНоменклатуры</enums>
+  <enums>Enum.СтавкиНДС</enums>
+  <reports>Report.ВзаиморасчетыСКонтрагентами</reports>
+  <reports>Report.ДвижениеТоваров</reports>
+  <reports>Report.ДоходыИРасходы</reports>
+  <dataProcessors>DataProcessor.ЗаполнениеГрафика</dataProcessors>
+  <dataProcessors>DataProcessor.АнализВычислений</dataProcessors>
+  <informationRegisters>InformationRegister.Цены</informationRegisters>
+  <informationRegisters>InformationRegister.Скидки</informationRegisters>
+  <informationRegisters>InformationRegister.График</informationRegisters>
+  <informationRegisters>InformationRegister.Календарь</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Товары</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВзаиморасчетыСКонтрагентами</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Доходы</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Расходы</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.Управленческий</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.Управленческий</accountingRegisters>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.НачисленияУдержания</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.Зарплата</calculationRegisters>
+</mdclass:Configuration>

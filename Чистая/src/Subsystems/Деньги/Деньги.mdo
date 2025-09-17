@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d083403-0fd2-4e46-a2b5-b21540ae6c3f">
+  <name>Деньги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Деньги</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПоступлениеДенежныхСредств</content>
+  <content>Document.СписаниеДенежныхСредств</content>
+  <content>DocumentJournal.Деньги</content>
+</mdclass:Subsystem>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f61c9bd6-934a-409f-ac03-f1c0722ed5af">
+  <producedTypes>
+    <objectType typeId="072f17f8-38fe-40b7-8b01-74dc54d46a39" valueTypeId="8dd91010-85e5-41ba-8f8d-4ae6dabe2a25"/>
+    <refType typeId="908f19d0-2b30-410a-aed0-4926f26c0fd3" valueTypeId="612cbc7b-fc6b-4615-b5c2-00fe86c54ba5"/>
+    <selectionType typeId="5f3c6e2d-9d9d-4955-845f-eb553ae1d2a9" valueTypeId="9cc89bb5-a770-4097-adcf-4dc8a9b391cf"/>
+    <listType typeId="a948c7dc-034d-4254-a52f-62a216ce8e7e" valueTypeId="74a14235-4908-40d2-b22d-f724a27daf2f"/>
+    <managerType typeId="8567701a-dd69-41ec-839f-3f3e1dc4b63f" valueTypeId="869c635a-224f-461c-ae0d-ef400c59793a"/>
+  </producedTypes>
+  <name>НачислениеПоОкладу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисление по окладу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.НачислениеПоОкладу.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.НачислениеПоОкладу.Form.ФормаДокумента</defaultObjectForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>CalculationRegister.Зарплата</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="4db0427b-7aae-4b61-b1a8-7ff1038f9008">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="01c182fc-aa74-42e3-9958-f7abf442fe50">
+    <producedTypes>
+      <objectType typeId="1a2fbcfe-cb77-4997-bd0d-6aafd78bc04f" valueTypeId="c7344149-b7c3-4480-8ae4-671bb37b4ea5"/>
+      <rowType typeId="bcf714a7-7101-443f-a428-4111bedee4c1" valueTypeId="b84b9029-6e6e-4284-8f13-ff0d325d0b91"/>
+    </producedTypes>
+    <name>Сотрудники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудники</value>
+    </synonym>
+    <attributes uuid="f7517348-4aac-4335-881d-24257fbb4751">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
