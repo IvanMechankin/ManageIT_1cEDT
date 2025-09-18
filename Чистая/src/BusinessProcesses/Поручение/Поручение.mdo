@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afda29fc-89d8-42a0-a3d9-b168fd1e8679">
+  <producedTypes>
+    <objectType typeId="0a04f71e-3c73-4035-8e68-9db53f9edf9a" valueTypeId="2c2ed595-e2ca-43b6-a188-af67c37ccf32"/>
+    <refType typeId="d96153c8-9a72-4054-9806-f36c89f0ffc4" valueTypeId="b07a90ad-b218-4480-ab8b-0b8ea4666e34"/>
+    <selectionType typeId="d1a9a03e-7161-4244-af6c-6be219016f9a" valueTypeId="460ccaab-169c-412f-83c1-668187277081"/>
+    <listType typeId="35a79919-df4d-41e0-aa75-0958146d799a" valueTypeId="d32b7452-161e-49a1-a016-2a244fc0d422"/>
+    <managerType typeId="61b71e48-a1aa-46a5-8a5b-fe2346253f18" valueTypeId="e1f53ec1-882d-47f1-9616-eb924a257c9b"/>
+    <routePointRef typeId="d682aba8-28d8-4443-89d0-c2a7d510b377" valueTypeId="fc49ba46-39a3-442f-b1d7-ed18dceb009c"/>
+  </producedTypes>
+  <name>Поручение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поручение</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>BusinessProcess.Поручение.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <editType>InDialog</editType>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <task>Task.Задача</task>
+  <createTaskInPrivilegedMode>true</createTaskInPrivilegedMode>
+  <attributes uuid="63b80562-3210-4eee-ab2f-ecc2afe2fcc8">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="1423d8c5-3275-49a6-ae20-ae7b263fe9c3">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:BusinessProcess>

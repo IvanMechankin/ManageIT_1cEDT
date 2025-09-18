@@ -43,6 +43,7 @@
   <subsystems>Subsystem.Деньги</subsystems>
   <subsystems>Subsystem.Учёт</subsystems>
   <subsystems>Subsystem.Зарплата</subsystems>
+  <subsystems>Subsystem.Взаимодействие</subsystems>
   <sessionParameters>SessionParameter.ТекущийСотрудник</sessionParameters>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.БазовыеПрава</roles>
@@ -53,6 +54,7 @@
   <functionalOptions>FunctionalOption.ВестиРасчётЗарплаты</functionalOptions>
   <definedTypes>DefinedType.Сумма</definedTypes>
   <definedTypes>DefinedType.Количество</definedTypes>
+  <definedTypes>DefinedType.ПредметПроцесса</definedTypes>
   <commonCommands>CommonCommand.НастройкаПрограммы</commonCommands>
   <constants>Constant.ВестиРасчётЗарплаты</constants>
   <commonForms>CommonForm.НастройкаПрограммы</commonForms>
@@ -94,4 +96,6 @@
   <accountingRegisters>AccountingRegister.Управленческий</accountingRegisters>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.НачисленияУдержания</chartsOfCalculationTypes>
   <calculationRegisters>CalculationRegister.Зарплата</calculationRegisters>
+  <businessProcesses>BusinessProcess.Поручение</businessProcesses>
+  <tasks>Task.Задача</tasks>
 </mdclass:Configuration>
