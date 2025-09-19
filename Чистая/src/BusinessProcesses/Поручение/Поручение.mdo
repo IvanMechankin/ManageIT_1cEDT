@@ -119,7 +119,10 @@
       <key>ru</key>
       <value>Подчиненное поручение</value>
     </synonym>
-    <group>ActionsPanelTools</group>
+    <group>FormCommandBarCreateBasedOn</group>
+    <commandParameterType>
+      <types>TaskRef.Задача</types>
+    </commandParameterType>
     <representation>Auto</representation>
   </commands>
 </mdclass:BusinessProcess>

@@ -28,6 +28,8 @@
   <descriptionLength>150</descriptionLength>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
+  <defaultObjectForm>Task.Задача.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Task.Задача.Form.ФормаСписка</defaultListForm>
   <attributes uuid="42f6cc47-84fa-4d4a-8cfd-59dff6d49d87">
     <name>Предмет</name>
     <synonym>
@@ -59,6 +61,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="2c3725a2-fa23-4e7e-9531-e153218a3853">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d4656af9-fae2-48c9-8126-0564622b9a49">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <addressingAttributes uuid="abfef708-b8ca-4072-ba94-ce5207f8de6e">
     <name>Исполнитель</name>
     <synonym>
