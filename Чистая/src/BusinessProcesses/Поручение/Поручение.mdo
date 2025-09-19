@@ -59,4 +59,13 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <commands uuid="34cef504-c7ea-4d2b-ba05-3d03f0903d58">
+    <name>ПодчиненноеПоручение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подчиненное поручение</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:BusinessProcess>
