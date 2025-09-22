@@ -74,6 +74,7 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <editType>InDialog</editType>
+  <defaultObjectForm>BusinessProcess.Поручение.Form.ФормаЭлемента</defaultObjectForm>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
@@ -113,13 +114,22 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <forms uuid="45d9abc0-f47b-45ff-893f-4cbd1c083c4f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <commands uuid="34cef504-c7ea-4d2b-ba05-3d03f0903d58">
     <name>ПодчиненноеПоручение</name>
     <synonym>
       <key>ru</key>
       <value>Подчиненное поручение</value>
     </synonym>
-    <group>FormCommandBarCreateBasedOn</group>
+    <group>FormCommandBarImportant</group>
     <commandParameterType>
       <types>TaskRef.Задача</types>
     </commandParameterType>
